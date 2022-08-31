@@ -21,7 +21,6 @@ formEl.addEventListener('submit', onFormSubmit);
 loadMoreEl.addEventListener('click', onLoadMore);
 
 let gallery = new SimpleLightbox('.gallery a');
-// test
 // console.log(gallery);
 async function onFormSubmit(e) {
     e.preventDefault();
