@@ -1,7 +1,7 @@
 
 // import debounce from "lodash.debounce"
 
-import ImgApi from './js/imgApi';
+import ImgApi from './js/imgAPI';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import imgCardTpl from './template/imgCardTpl.hbs';
 
