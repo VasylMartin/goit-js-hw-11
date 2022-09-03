@@ -101,6 +101,10 @@ async function onLoadMore() {
         }
     }
      catch(error) {
+        if (error.response.status === 400) {
+            Notify.warning("We're sorry, but you've reached the end of search results.");
+            loadMoreEl.classList.remove('visible');
+        }
         console.log(error);
     };
  
